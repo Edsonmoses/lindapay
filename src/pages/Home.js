@@ -167,7 +167,7 @@ const Home = () => {
             <div className="col-md-4">
                 <h4 data-aos="fade-down" className="text-center aos-init aos-animate">
                 {forSocialProducts.map((forSocialProducts) => (
-                        <If condition={forSocialProducts.id === 0}>
+                        <If condition={forSocialProducts.id === 12}>
                             <Then>
                                  {forSocialProducts.title}
                             </Then>
@@ -183,7 +183,7 @@ const Home = () => {
             <div className="col-md-4">
                 <h4 data-aos="fade-down" className="text-center aos-init aos-animate">
                 {forSocialServices.map((forSocialServices) => (
-                        <If condition={forSocialServices.id === 0}>
+                        <If condition={forSocialServices.id === 12}>
                             <Then>
                                  {forSocialServices.title}
                             </Then>
@@ -199,7 +199,7 @@ const Home = () => {
             <div className="col-md-4">
                 <h4 data-aos="fade-down" className="text-center aos-init aos-animate">
                     {forSocialDigital.map((forSocialDigital) => (
-                        <If condition={forSocialDigital.id === 0}>
+                        <If condition={forSocialDigital.id === 12}>
                             <Then>
                                  {forSocialDigital.title}
                             </Then>
@@ -208,7 +208,7 @@ const Home = () => {
                 </h4>
                 <ul data-aos="fade-right" className="aos-init aos-animate">
                     {forSocialDigital.map((forSocialDigital) => (
-                        <If condition={forSocialDigital.id === 0}>
+                        <If condition={forSocialDigital.id === 12}>
                             <Then>
                             </Then>
                             <Else>

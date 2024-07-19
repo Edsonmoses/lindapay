@@ -128,7 +128,7 @@ export const forSocial = [
 ];
 export const forSocialProducts = [
     {
-        id: 0,
+        id: 12,
         title: "Physical Products ",
     },
     { 
@@ -158,7 +158,7 @@ export const forSocialProducts = [
 ];
 export const forSocialServices = [
     {
-        id: 0,
+        id: 12,
         title: "Services",
     },
         { 
@@ -189,7 +189,7 @@ export const forSocialServices = [
 
 export const forSocialDigital = [
     {
-        id: 0,
+        id: 12,
         title: "Digital Products",
     },
     { 
