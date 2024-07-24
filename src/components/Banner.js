@@ -8,7 +8,7 @@ const Banner = (prop) => {
         <div className="row">
             <div className="col-md-12">
                 <div className="btn-container">
-                    <Link href="#" className="btn product-btn-small">{prop.title}</Link>
+                    <Link to="#" className="btn product-btn-small">{prop.title}</Link>
                 </div>
             </div>
             <div className="col-md-7 d-none d-lg-inline">

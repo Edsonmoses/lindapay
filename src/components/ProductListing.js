@@ -20,7 +20,7 @@ const ProductListing = () => {
                            {productconten.desc}
                         </p>
                         <div className="btn-container">
-                            <Link className="btn product-btn" href={productconten.productUrl}>{productconten.productText}</Link>
+                            <Link className="btn product-btn" to={productconten.productUrl}>{productconten.productText}</Link>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const ProductListing = () => {
                             {productconten.desc}
                         </p>
                         <div className="btn-container">
-                            <Link className="btn product-btn" href={productconten.productUrl}>{productconten.productText}</Link>
+                            <Link className="btn product-btn" to={productconten.productUrl}>{productconten.productText}</Link>
                         </div>
                     </div>
                     <div className="col-md-6 product-image order-first order-md-1">

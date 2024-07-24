@@ -58,14 +58,14 @@ ensure both buyers and sellers are happy with their transactions.
     
 </footer>
     <div style={{display: 'none'}}>
-    <div id="custom-loader" class="loader-primary">
-        <div class="loader-demo">
-            <div class="loader-inner ball-scale-ripple-multiple mb">
+    <div id="custom-loader" className="loader-primary">
+        <div className="loader-demo">
+            <div className="loader-inner ball-scale-ripple-multiple mb">
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
-            <div class="text-center mt"><span class="loading-text">Please wait...</span></div>
+            <div className="text-center mt"><span className="loading-text">Please wait...</span></div>
         </div>
     </div>
 </div>
