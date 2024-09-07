@@ -13,7 +13,7 @@ const ibmPlexSerif = IBM_Plex_Serif({
 
 export const metadata: Metadata = {
   title: "LindaPay",
-  description: "LindaPay is a modern banking platform for everyone.",
+  description: "LindaPay is your number 1 digital escrow service, providing a simple, transperent, secured payment method for your transactions.",
   icons: {
     icon: '/icons/logo_0012.svg'
   }
