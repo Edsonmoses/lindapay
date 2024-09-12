@@ -12,10 +12,10 @@ const ibmPlexSerif = IBM_Plex_Serif({
 })
 
 export const metadata: Metadata = {
-  title: "LindaPay",
-  description: "LindaPay is your number 1 digital escrow service, providing a simple, transperent, secured payment method for your transactions.",
+  title: "Horizon",
+  description: "Horizon is a modern banking platform for everyone.",
   icons: {
-    icon: '/icons/logo_0012.svg'
+    icon: '/icons/logo.svg'
   }
 };
 
